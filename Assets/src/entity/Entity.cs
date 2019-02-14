@@ -9,6 +9,7 @@ public class Entity : Representable, EntityIF {
 	public Entity(string prefabName) : base(prefabName) {
 		position = new Vector2();
 		rotation = new Rotation2();
+        
 	}
 
 	public Vector2 GetPosition() {
